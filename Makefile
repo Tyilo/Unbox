@@ -1,7 +1,7 @@
-export SDKVERSION = 9.2
-export ARCHS = armv7 arm64
+export SDKVERSION = 9.3
+export SYSROOT = $(THEOS)/sdks/iPhoneOS9.3.sdk
 
-include theos/makefiles/common.mk
+include $(THEOS)/makefiles/common.mk
 
 LIBRARY_NAME = libunbox
 libunbox_FILES = UBDelegate.m UBClient.m
