@@ -1,0 +1,6 @@
+#!/bin/bash
+
+p=/Library/LaunchDaemons/com.tyilo.unboxd.plist
+chown root "$p"
+launchctl unload "$p" || true
+launchctl load "$p"

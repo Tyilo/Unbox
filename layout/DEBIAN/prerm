@@ -1,0 +1,4 @@
+#!/bin/bash
+
+p=/Library/LaunchDaemons/com.tyilo.unboxd.plist
+launchctl unload "$p" || true

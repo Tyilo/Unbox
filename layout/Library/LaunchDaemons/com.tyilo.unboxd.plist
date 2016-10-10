@@ -3,11 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>org.h2co3.unboxdlaunch</string>
+	<string>com.tyilo.unboxd</string>
 	<key>Program</key>
-	<string>/usr/libexec/unboxdlaunch</string>
+	<string>/usr/libexec/unboxd</string>
 	<key>RunAtLoad</key>
 	<true/>
 </dict>
 </plist>
-

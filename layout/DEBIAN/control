@@ -2,7 +2,7 @@ Package: com.tyilo.unbox
 Name: Unbox
 Replaces: org.h2co3.unboxdlaunch
 Depends:
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm
 Description: filesystem access from a sandbox
 Maintainer: Asger Hautop Drewsen (Tyilo) <asgerdrewsen@gmail.com>
